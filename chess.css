@@ -24,3 +24,17 @@ h1:hover{
     cursor: pointer;
     
 }
+.main-container{
+  width: auto;
+  max-width: 100%;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+    

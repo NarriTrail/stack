@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="./reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>registration form</h2>
+        </div>
+        <form action="home.html"class="form" id="form">
+            <div class="field">
+                <label for="">username</label>
+                <input type="text" placeholder="please enter your username" id="uname">
+                <span class="material-symbols-outlined error">!</span>
+                <span class="material-symbols-outlined success"> ></span>
+                <small>error message</small>
+            </div>
+            <div class="field">
+                <label for="">email</label>
+                <input type="text" placeholder="please enter your email" id="email">
+                <span class="material-symbols-outlined error">! </span>
+                <span class="material-symbols-outlined success"> c</span>
+                <small>error message</small>
+            </div>
+            <div class="field">
+                <label for="">password</label>
+                <input type="text" placeholder="please enter your password" id="password">
+                <span class="material-symbols-outlined error">!</span>
+                <span class="material-symbols-outlined success"> </span>
+                <small>error message</small>
+            </div>
+            <div class="field">
+                <label for="">re-enter password</label>
+                <input type="text" placeholder="please re-enter your password" id="cpassword">
+                <span class="material-symbols-outlined error">!</span>
+                <span class="material-symbols-outlined success"> c</span>
+                <small>error message</small>
+            </div>
+            <div class="field">
+                <input type="checkbox" id="tc" class="terms"><label for="">I agree the terms and conditions</label>
+                <small>error message</small>
+            </div>
+            
+                <input type="submit" class="button">
+           
+        </form>
+    </div>
+    <script src="sample.js"></script>
+</body>
+</html>
